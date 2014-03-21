@@ -12,6 +12,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'slim-rails'
 gem 'therubyracer', :platform => :ruby
+gem 'capistrano', '~> 3.1'
 
 group :development do
   gem 'better_errors' # error page on development
