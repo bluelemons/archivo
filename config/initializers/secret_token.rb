@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Archivo::Application.config.secret_key_base = '77d2e1cc69a21fced270f7b9f64e5be3a6289bf368fe71cecd4239e339d3fcac3c94c829407a7ddbc837fb99029a7232aff9833f6ec2e20e72884a0134273e7f'
+Archivo::Application.config.secret_key_base=ENV['SECRET_KEY_BASE']
