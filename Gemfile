@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 ruby '2.1.0'
 
 gem 'rails', '4.0.4'
+gem 'rails-i18n', '~> 4.0'
 gem 'sqlite3'
 gem 'sass-rails', '~> 4.0.2'
 gem 'uglifier', '>= 1.3.0'
@@ -14,6 +15,7 @@ gem 'jbuilder', '~> 1.2'
 gem 'slim-rails'
 gem 'therubyracer', :platform => :ruby
 gem 'capistrano', '~> 3.1'
+gem 'rails_backend', '~> 0.0.1'
 
 group :development do
   gem 'better_errors' # error page on development
