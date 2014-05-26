@@ -33,6 +33,7 @@ end
 
 group :development, :test do
   gem 'factory_girl_rails'
+  gem 'pry'
   gem 'rspec-rails'
   gem 'thin'
   gem 'dotenv-rails', '~> 0.9'
